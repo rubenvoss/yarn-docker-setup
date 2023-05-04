@@ -4619,13 +4619,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cra-template@npm:1.2.0":
-  version: 1.2.0
-  resolution: "cra-template@npm:1.2.0"
-  checksum: 50f11eb15fc16ce968260cec219fb382e369d61b6b6aa4bb66890e7d4341e71cfbd450d7acd6dcfeab98cb14d6ad6efa4be0a9b5675898c1ffca128976c191e5
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -10397,10 +10390,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "product@workspace:apps/product"
   dependencies:
-    cra-template: 1.2.0
-    react: 18.2.0
-    react-dom: 18.2.0
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^13.4.0
+    "@testing-library/user-event": ^13.5.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
     react-scripts: 5.0.1
+    web-vitals: ^2.1.4
   languageName: unknown
   linkType: soft
 
@@ -10588,7 +10584,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
+"react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -10702,7 +10698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0, react@npm:^18.2.0":
+"react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
