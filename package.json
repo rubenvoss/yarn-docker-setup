@@ -1,0 +1,13 @@
+{
+  "name": "yarn-docker-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rubenvoss/yarn-docker-setup.git",
+  "author": "Ruben Voß <bekertshop@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@3.5.1"
+}
